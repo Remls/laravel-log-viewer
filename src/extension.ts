@@ -18,7 +18,7 @@ function getFullPath(relativePath: string) {
 
 export function activate(context: vscode.ExtensionContext) {
   const disposable = vscode.commands.registerCommand(
-    "remls.openLatestLog",
+    "laravelLogViewer.openLatestLog",
     function () {
       const config = vscode.workspace.getConfiguration("laravelLogViewer");
       const isLaravelProject = config.get("isLaravelProject") as boolean;

@@ -2,7 +2,7 @@
 	"name": "laravel-log-viewer",
 	"displayName": "Laravel Log Viewer",
 	"description": "View last log of a Laravel project",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"publisher": "remls",
     "license": "MIT",
     "repository": {
@@ -23,7 +23,7 @@
     "contributes": {
         "commands": [
             {
-                "command": "remls.openLatestLog",
+                "command": "laravelLogViewer.openLatestLog",
                 "title": "Laravel Log Viewer: Open Latest Log"
             }
         ],
@@ -31,7 +31,7 @@
 			{
 				"key": "ctrl+shift+l",
                 "mac": "cmd+shift+l",
-				"command": "remls.openLatestLog"
+				"command": "laravelLogViewer.openLatestLog"
 			}
 		],
         "configuration": [
